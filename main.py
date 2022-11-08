@@ -59,5 +59,5 @@ if __name__ == '__main__':
         
             loss_sum += loss.item()
             if idx%50 == 49:
-                print('loss: ', round(loss_sum/50, 5)
+                print('loss: ', round(loss_sum/50, 5))
                 loss_sum = 0
